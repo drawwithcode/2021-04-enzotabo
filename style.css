@@ -1,8 +1,20 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
 canvas {
   display: block;
+}
+.mySliders::-webkit-slider-runnable-track {
+  cursor: grab;
+}
+
+.mySliders::-webkit-slider-thumb {
+  cursor: grab;
+}
+
+.myButton:hover {
+  background-color: rgb(255, 208, 0);
 }
